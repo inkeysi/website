@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-bar">
+      <input type="text" placeholder="Search Place">
+      <button><img src="backpg.jpg" alt="Search"></button>
+    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #0d39c96d;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: rgb(14, 1, 1);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #de7979;
+            color: black;
+        }
+        .destination {
+            margin: 20px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Traveling Around the World</h1>
+        <nav class="navbar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Explore Amazing Destinations</h2>
+            <div class="destination" id="korea">
+                <h3>Korea</h3>
+                <img src="korea.jpg" alt="Korea" class="destination-image">
+                <p>Experience the rich culture, delicious food, and stunning landscapes of Korea, from the bustling streets of Seoul to the tranquil temples of Gyeongju.</p>
+            </div>
+            <div class="destination" id="japan">
+                <h3>Japan</h3>
+                <img src="japan.jpg" alt="Japan" class="destination-image">
+                <p>Japan is a perfect blend of tradition and innovation, with ancient shrines, beautiful gardens, and modern cityscapes like Tokyo and Osaka.</p>
+            </div>
+            <div class="destination" id="paris">
+                <h3>Paris</h3>
+                <img src="paris.jpg" alt="Paris" class="destination-image">
+                <p>Known as the City of Light, Paris offers iconic landmarks such as the Eiffel Tower and the Louvre, along with charming streets and exquisite cuisine.</p>
+            </div>
+            <div class="destination" id="canada">
+                <h3>Canada</h3>
+                <img src="canada.jpg" alt="Canada" class="destination-image">
+                <p>From the stunning Rocky Mountains to vibrant cities like Toronto and Vancouver, Canada is a diverse country with breathtaking nature and rich cultural experiences.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About This Travel Guide</h2>
+            <p>This travel guide aims to provide inspiration for your next adventure. Whether you are seeking cultural experiences, culinary delights, or breathtaking landscapes, these destinations have something to offer for every traveler.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Travel the World. All rights reserved.</p>
+    </footer>
+</body>
+</html>
